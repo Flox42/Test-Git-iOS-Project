@@ -15,6 +15,8 @@
 		5435772119F0FDE70087DC5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5435772019F0FDE70087DC5C /* Images.xcassets */; };
 		5435772419F0FDE70087DC5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5435772219F0FDE70087DC5C /* LaunchScreen.xib */; };
 		5435773019F0FDE70087DC5C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435772F19F0FDE70087DC5C /* Git_TestTests.m */; };
+		5435773B19F101A80087DC5C /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435773A19F101A80087DC5C /* CCTest.m */; };
+		5435773E19F1022B0087DC5C /* FPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435773D19F1022B0087DC5C /* FPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		5435772919F0FDE70087DC5C /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5435772E19F0FDE70087DC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5435772F19F0FDE70087DC5C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5435773919F101A80087DC5C /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTest.h; path = ../CCTest.h; sourceTree = "<group>"; };
+		5435773A19F101A80087DC5C /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTest.m; path = ../CCTest.m; sourceTree = "<group>"; };
+		5435773C19F1022B0087DC5C /* FPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTest.h; sourceTree = "<group>"; };
+		5435773D19F1022B0087DC5C /* FPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				5435771519F0FDE70087DC5C /* AppDelegate.m */,
 				5435771A19F0FDE70087DC5C /* ViewController.h */,
 				5435771B19F0FDE70087DC5C /* ViewController.m */,
+				5435773919F101A80087DC5C /* CCTest.h */,
+				5435773A19F101A80087DC5C /* CCTest.m */,
+				5435773C19F1022B0087DC5C /* FPTest.h */,
+				5435773D19F1022B0087DC5C /* FPTest.m */,
 				5435771D19F0FDE70087DC5C /* Main.storyboard */,
 				5435772019F0FDE70087DC5C /* Images.xcassets */,
 				5435772219F0FDE70087DC5C /* LaunchScreen.xib */,
@@ -223,9 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5435771619F0FDE70087DC5C /* AppDelegate.m in Sources */,
+				5435773E19F1022B0087DC5C /* FPTest.m in Sources */,
 				5435771319F0FDE70087DC5C /* main.m in Sources */,
 				5435771C19F0FDE70087DC5C /* ViewController.m in Sources */,
 				5435771919F0FDE70087DC5C /* Git_Test.xcdatamodeld in Sources */,
+				5435773B19F101A80087DC5C /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
